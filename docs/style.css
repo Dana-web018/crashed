@@ -1,0 +1,38 @@
+.header {
+    min-height: 293px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* .header__menu__list {
+    display: flex;
+    justify-content:space-between;
+    gap: 32px;
+} */
+
+.header__logo {
+    justify-self: center;
+    width: 125px;
+    height: 95px;
+}
+
+.header__address {
+    font-style: normal;
+    justify-self: end;
+    font-size: 18px;
+    display: grid;
+    line-height: 1.25;
+}
+
+.header__street {
+    max-width: 240px;
+}
